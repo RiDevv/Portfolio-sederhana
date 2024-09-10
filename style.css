@@ -1,0 +1,162 @@
+* {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn button {
+  width: 115px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Hero section */
+.hero {
+  height: 400px;
+  margin-top: 130px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.hero p {
+  text-align: center;
+}
+
+/* Projects */
+.project {
+  height: 590px;
+}
+
+.header {
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 250px;
+  height: 330px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card .img img {
+  width: 250px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.card .img .judul {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  bottom: 165px;
+  left: 160px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.deskripsi {
+  display: flex;
+  height: 140px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.all {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* about me */
+.wrapper {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.wrapper .sub {
+  text-indent: 60px;
+}
+
+.wrapper .about-me {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 50px;
+}
+
+.wrapper .about-me img {
+  width: 40%;
+  height: 220px;
+  border-radius: 20px;
+}
+
+/* footer */
+.invit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: #f2f2f2;
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.footer .sosmed p {
+  text-indent: 40px;
+  margin-bottom: 30px;
+}
+
+.footer .sosmed ul {
+  list-style: none;
+  color: blue;
+}
+
+.footer .email .em {
+  color: blue;
+}
+
+.footer .FAQ {
+  margin-right: 40px;
+}
